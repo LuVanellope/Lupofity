@@ -1,4 +1,3 @@
 class Song < ApplicationRecord
-  belongs_to :albums
-  add_foreing_key :album_id
+  belongs_to :album
 end
