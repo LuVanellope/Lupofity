@@ -2,12 +2,12 @@
 
 one:
   artist: one
-  name: MyText
-  number: 1
-  preview_url: MyString
+  name: MyString
+  image_url: MyString
+  released_at: MyString
 
 two:
   artist: two
-  name: MyText
-  number: 1
-  preview_url: MyString
+  name: MyString
+  image_url: MyString
+  released_at: MyString
