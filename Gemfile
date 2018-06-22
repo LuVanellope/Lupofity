@@ -6,6 +6,13 @@ git_source(:github) do |repo_name|
 end
 
 
+gem 'flexbox-rails', '~> 1.0'
+
+gem 'popper_js', '~> 1.12.9'
+
+gem 'jquery-rails'
+
+gem 'bootstrap', '~> 4.1.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use sqlite3 as the database for Active Record

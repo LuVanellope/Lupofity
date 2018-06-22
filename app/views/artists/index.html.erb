@@ -1,0 +1,12 @@
+<%= render '/layouts/menu'%>
+<div class="p-5 d-inline-flex ">
+  <% @artists.each do |artist| %>
+  <div class="card d-flex justify-content-around">
+    <img class="card-img-top img-fluid" src= "<%= artist.image_url %>" >    
+    <div class="card-body text-center">
+      <h3 class="card-title"><%= artist.name %></h3>
+      <%= link_to "Ver más", artist_path(artist), :class=> "btn btn-primary text-white btn btn-block"  %>
+    </div>
+  </div>
+  <%end%>
+</div>
